@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 header {
     margin: 28px 24px 0;
 }
@@ -28,4 +34,97 @@ header button {
     background-color: #fff;
     border-radius: 11.8px;
     cursor: pointer;
+}
+
+/*main*/
+
+main {
+    margin: 116px 40px 0;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #00252e;
+}
+
+.top-section p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #00252e;
+    margin-top: 24px;
+}
+
+.top-section button {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px 7px 0 rgba(0, 37, 46, 0.22);
+    background-color: #ff52c1;
+    padding: 11px 39.5px;
+    border: none;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.top-section img {
+    max-width: 100%;
+    margin-top: 104px;
+}
+
+.comunity-number {
+    font-family: "Open Sans";
+}
+
+.comunity-number div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunity-number img {
+    align-self: flex-start;
+    width: 27px;
+}
+
+.K {
+    font-size: 61px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #00252e;
+}
+
+.K-description {
+    font-size: 13.4px;
+    line-height: 1.5;
+    color: #808e9a;
+}
+
+.K-second {
+    font-size: 53.5px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.K-description-second {
+    font-size: 13.4px;
+    line-height: 1.5;
+    color: #808e9a;
 }
