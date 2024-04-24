@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    margin: 28px 24px 0;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 96px;
+}
+
+header button {
+    font-family: "Open Sans";
+    font-size: 9.4px;
+    line-height: 1.5;
+    text-align: center;
+    color: #00252e;
+    padding: 5.2px 18px;
+    border: solid 0.6px #ff52c1;
+    color: #ff52c1;
+    background-color: #fff;
+    border-radius: 11.8px;
+    cursor: pointer;
+}
