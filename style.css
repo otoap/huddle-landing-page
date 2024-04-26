@@ -5,7 +5,6 @@
 body {
     display: flex;
     flex-direction: column;
-    
 }
 
 header {
@@ -38,15 +37,19 @@ header button {
 
 /*main*/
 
-main {
-    margin: 116px 40px 0;
+section img {
+    width: 100%;
 }
+
+
+
 
 .top-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 116px 40px 0;
 }
 
 h1 {
@@ -67,7 +70,7 @@ h1 {
     margin-top: 24px;
 }
 
-.top-section button {
+.free-button {
     font-family: "Open Sans";
     font-size: 12px;
     font-weight: bold;
@@ -127,4 +130,387 @@ h1 {
     font-size: 13.4px;
     line-height: 1.5;
     color: #808e9a;
+}
+
+/*bottom section*/
+
+.grow {
+    /* background-image: url("./images/bg-section-top-mobile-1.svg"), url("./images/bg-section-bottom-mobile-1.svg"); */
+    background-position: top, bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 180px;
+    position: relative;
+    /*background-color: #f6fbff;*/
+    margin-bottom: 200px;
+}
+
+.people {
+    padding: 0 27.5px;
+    background-color: #f6fbff;
+}
+
+
+.inside-content {
+    background-color: #f6fbff;
+}
+
+.top-image {
+    transform: translateY(6px);
+}
+
+.inside-content {
+    padding-bottom: 110px;
+    padding: 27.5px;
+}
+
+
+h3 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #00252e;
+    margin-top: 40px;
+}
+
+.bottom-section {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #00252e;
+    margin-top: 16px;
+}
+
+
+.bottom-image {
+    transform: translateY(-2px);
+}
+
+.flowing img {
+    max-width: 100%;
+}
+
+.flowing .inside-content {
+    background-color: #ffffff;
+}
+
+.users {
+    margin-top: 120px;
+}
+
+.inside-content p {
+    padding: 16px 27.5px;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #00252e;
+}
+
+/*footer*/
+footer {
+    margin-top: 250px;
+    font-family: "Open Sans";
+}
+
+.footer-background {
+    transform: translateY(6px);
+    width: 100%;
+}
+
+.footer-content {
+    background-color: #00252E;
+    padding: 0 27.5px;
+    padding-bottom: 45px;
+}
+
+.newsletter {
+    padding-top: 40px;
+}
+
+.newsletter span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.71;
+    text-align: left;
+    color: #fff;
+    margin: 16px 0 32px;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo svg {
+    fill: #fff;
+}
+
+#input {
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    height: 48px;
+    width: 100%;
+    outline:none;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #00252e;
+    font-family: "Open Sans";
+}
+
+
+.div-for-input-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-for-input-text span {
+    height: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ff4343;
+}
+
+.subscribe {
+    width: 50%;
+    border: none;
+    padding: 12px 41px;
+    border-radius: 5px;
+    background-color: #ff52c1;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    align-self: end;
+    cursor: pointer;
+}
+
+div svg path{
+    fill: white;
+}
+
+.svg-div {
+    margin-top: 104px;
+}
+
+.svg-div p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.71;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.contact {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact span {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.71;
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    gap: 17.3px;
+}
+
+a img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(320deg) brightness(106%) contrast(102%);
+}
+
+
+
+/**/
+.background-image-desktop {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    
+    header {
+        margin: 79px 80px 0;
+    }
+
+    header img {
+        max-width: 240px;
+    }
+
+    header button {
+        font-size: 16px;
+        padding: 9px 30px;
+    }
+
+    /*main*/
+
+    .top-section {
+        margin: 225px 210px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .top-section p {
+        font-size: 20px;
+        max-width: 600px;
+    }
+
+    .free-button {
+        font-size: 20px;
+        padding: 25px 100px;
+        border-radius: 40px;
+    }
+
+    .free-button:hover {
+        background-color: #ff8ed7;
+    }
+
+    .top-section img {
+        margin-top: 120px;
+    }
+
+    .comunity-number {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .comunity-number img {
+        width: 56px;
+    }
+
+    .K, .K-second {
+        font-size: 96px;
+    }
+
+    .K-description, .K-description-second {
+        font-size: 24px;
+    }
+
+    /*bottom section*/
+
+    .inside-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 130px;
+    }
+
+    .inside-content img {
+        max-width: 50%;
+        order: 1;
+    }
+
+    .background-image-desktop {
+        display: block;
+    }
+
+    .background-image-mobile {
+        display: none;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .inside-content p {
+        font-size: 16px;
+        text-align: start;
+        max-width: 520px;
+        padding: 0;
+    }
+    
+    .bottom-image {
+        transform: translateY(-4px);
+    }
+
+    .top-image {
+        transform: translateY(28px);
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    /*footer*/
+
+    .free-button {
+        margin-top: 45px;
+    }
+
+    .footer-content {
+        display: flex;
+        padding: 100px 103px 120px;
+        justify-content: space-between;
+    }
+    
+    .svg-div {
+        order: -1;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .svg-div p {
+        margin-top: 23px;
+    }
+
+    .newsletter {
+        padding: 0;
+        width: 520px;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .subscribe {
+        width: 160px;
+        align-self: start;
+    }
+
+    .div-for-input-text {
+        flex-grow: 1;
+    }
+
+    .newsletter p {
+        max-width: 340px;
+    }
+
+    #input {
+        cursor: pointer;
+    }
+
+    a:hover {
+        filter: invert(62%) sepia(25%) saturate(2983%) hue-rotate(148deg) brightness(98%) contrast(103%);
+    }
 }
