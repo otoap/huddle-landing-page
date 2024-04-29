@@ -23,7 +23,8 @@ input.addEventListener("keydown", (event)=> {
 
 
 function checker (info) {
-    if(!info.includes("@")) {
+    let email = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/;
+    if(!email.test(info)) {
         textPlace.innerHTML = "check your email please";
     }else{
         textPlace.innerHTML = ""
